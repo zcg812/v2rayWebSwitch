@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if(!isset($_SESSION["user_name"]) || $_SESSION["user_name"] != "YOUR SETTINGS") 
+    if(!isset($_SESSION["zcg"]) || $_SESSION["zcg"] != "YOUR SETTINGS") 
     { 
         exit('Forbidden'); 
     }
